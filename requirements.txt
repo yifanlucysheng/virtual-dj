@@ -1,0 +1,11 @@
+# MediaPipe 0.10.14 still has mp.solutions.hands. It also installs matplotlib.
+mediapipe==0.10.14
+# OpenCV 5 ships a second SDL and the Dock icon bounces. Pin both packages.
+opencv-python==4.12.0.88
+opencv-contrib-python==4.12.0.88
+cmu-graphics==2.0.5
+Pillow==12.3.0
+sounddevice==0.5.6
+soundfile==0.13.1
+# OpenCV 4.12 needs NumPy 2.x below 2.3.
+numpy==2.2.6

@@ -1,0 +1,5 @@
+d = { 1: (2, 4), 6: 7, 8: 9}
+L = [ d.get(1, 0), d.get(2, 0)]
+L.append(d.pop(6))
+del d[1]
+print(L, d)
